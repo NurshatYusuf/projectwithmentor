@@ -9,4 +9,8 @@ export const CART = {
   GET_COUNT: "GET_COUNT",
 };
 
-export const JSON_API_PRODUCTS = "http://localhost:8000/products";
+// export const JSON_API_PRODUCTS = "http://localhost:8000/products";
+
+// for heroku
+export const JSON_API_PRODUCTS =
+  "https://projectwithmentor.herokuapp.com/api/products";
